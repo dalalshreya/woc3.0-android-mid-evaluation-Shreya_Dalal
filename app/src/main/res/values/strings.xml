@@ -6,4 +6,9 @@
     <string name="Wednesday_Timetable">Wednesday</string>
     <string name="Thursday_Timetable">Thursday</string>
     <string name="Friday_Timetable">Friday</string>
+    <string name="column_name_1">Timings</string>
+    <string name="column_name_2">Subject</string>
+    <string name="time_1">8:30 - 9:45 AM</string>
+    <string name="time_2">10:15 - 11:30 AM</string>
+    <string name="time_3">12:00 - 1:15 AM</string>
 </resources>

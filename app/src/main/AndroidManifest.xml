@@ -13,7 +13,7 @@
         <activity android:name=".Thursday" />
         <activity android:name=".Wednesday" />
         <activity android:name=".Tuesday" />
-        <activity android:name=".Monday" />
+        <activity android:name=".Monday" android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

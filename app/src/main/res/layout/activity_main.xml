@@ -68,7 +68,7 @@
             android:layout_marginTop="40dp"
             android:onClick="thursdaySchedule"
             android:text="@string/Thursday_Timetable"
-            app:backgroundTint="#CC1B1A19"
+            app:backgroundTint="#CC131312"
             app:cornerRadius="1000dp" />
 
         <Button
