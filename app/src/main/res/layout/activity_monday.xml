@@ -32,7 +32,7 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#2979FF">
+            android:background="#F9FAFB">
 
             <TextView
                 android:id="@+id/textView3"
@@ -48,7 +48,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
-                android:background="#9A2979FF"
+                android:background="#C12979FF"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/column_name_2"
                 android:textSize="24sp"
@@ -63,7 +63,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="172dp"
                 android:layout_height="64dp"
-                android:background="#482979FF"
+                android:background="#C12979FF"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/time_1"
                 android:textSize="18sp"
@@ -73,19 +73,20 @@
                 android:id="@+id/textView6"
                 android:layout_width="172dp"
                 android:layout_height="match_parent"
-                android:background="#482979FF"
+                android:background="#C12979FF"
                 android:textSize="18sp" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:background="#2979FF">
+            android:background="#F7FAFD">
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="171dp"
                 android:layout_height="59dp"
+                android:background="#482979FF"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/time_2"
                 android:textSize="18sp" />
@@ -94,6 +95,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:background="#482979FF"
                 android:textSize="18sp" />
         </TableRow>
 
