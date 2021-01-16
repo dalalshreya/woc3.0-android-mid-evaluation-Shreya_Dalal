@@ -14,7 +14,6 @@ public class Wednesday extends AppCompatActivity {
         setContentView(R.layout.activity_wednesday);
 
 
-
         Intent intent = getIntent();
         String day = intent.getStringExtra(MainActivity.MSG3);
         TextView textView = findViewById(R.id.textView2);

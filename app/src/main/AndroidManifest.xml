@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WinterSemesterTimeTable">
         <activity android:name=".Friday"></activity>
-        <activity android:name=".Thursday" />
+        <activity android:name=".Thursday" android:parentActivityName=".MainActivity"/>
         <activity android:name=".Wednesday" android:parentActivityName=".MainActivity"/>
         <activity android:name=".Tuesday" android:parentActivityName=".MainActivity" />
         <activity android:name=".Monday" android:parentActivityName=".MainActivity" />
