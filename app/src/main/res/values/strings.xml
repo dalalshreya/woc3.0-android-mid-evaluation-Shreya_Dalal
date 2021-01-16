@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Winter-Semester-TimeTable</string>
+    <string name="Start_message">Winter Semester</string>
+    <string name="Monday_Timetable">Monday</string>
+    <string name="Tuesday_Timetable">Tuesday</string>
+    <string name="Wednesday_Timetable">Wednesday</string>
+    <string name="Thursday_Timetable">Thursday</string>
+    <string name="Friday_Timetable">Friday</string>
+</resources>

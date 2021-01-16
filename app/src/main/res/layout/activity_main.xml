@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1FAFAF6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:background="#11FAF7F3"
+        android:text="@string/Start_message"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:background="#08F3F2F1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:onClick="mondaySchedule"
+            android:text="@string/Monday_Timetable"
+            app:backgroundTint="#CC10100F"
+            app:cornerRadius="1000dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:onClick="tuesdaySchedule"
+            android:text="@string/Tuesday_Timetable"
+            app:backgroundTint="#CC0E0E0D"
+            app:cornerRadius="1000dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:onClick="wednesdaySchedule"
+            android:text="@string/Wednesday_Timetable"
+            app:backgroundTint="#CC131312"
+            app:cornerRadius="1000dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:onClick="thursdaySchedule"
+            android:text="@string/Thursday_Timetable"
+            app:backgroundTint="#CC1B1A19"
+            app:cornerRadius="1000dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="40dp"
+            android:onClick="fridaySchedule"
+            android:text="@string/Friday_Timetable"
+            app:backgroundTint="#CC100F0F"
+            app:cornerRadius="1000dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
