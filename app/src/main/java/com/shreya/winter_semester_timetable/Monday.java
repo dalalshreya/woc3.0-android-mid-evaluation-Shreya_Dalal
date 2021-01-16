@@ -19,6 +19,9 @@ public class Monday extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView2);
         textView.setText(day);
 
+        textView = findViewById(R.id.textView6);
+        textView.setText("No Lecture");
+
         textView = findViewById(R.id.textView10);
         textView.setText("Computer\n Networks");
 

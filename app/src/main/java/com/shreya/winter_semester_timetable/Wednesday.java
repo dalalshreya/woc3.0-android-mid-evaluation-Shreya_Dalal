@@ -21,5 +21,11 @@ public class Wednesday extends AppCompatActivity {
 
         textView = findViewById(R.id.textView6);
         textView.setText("System\n Programming");
+
+        textView = findViewById(R.id.textView10);
+        textView.setText("No Lecture");
+
+        textView = findViewById(R.id.textView12);
+        textView.setText("No Lecture");
     }
 }

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Winter-Semester-TimeTable</string>
-    <string name="Start_message">Winter Semester</string>
+    <string name="Start_message">M.Sc.(IT) Winter Semester Time Table  </string>
     <string name="Monday_Timetable">Monday</string>
     <string name="Tuesday_Timetable">Tuesday</string>
     <string name="Wednesday_Timetable">Wednesday</string>

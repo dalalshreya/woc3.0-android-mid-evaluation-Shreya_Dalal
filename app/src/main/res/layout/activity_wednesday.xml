@@ -8,18 +8,24 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="49dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="60dp"
+        android:background="#C12979FF"
         android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textColor="#C10E0E0E"
         android:textSize="36sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TableLayout
+        android:id="@+id/tableLayout4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
@@ -39,6 +45,7 @@
                 android:layout_height="match_parent"
                 android:background="#C12979FF"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:text="@string/column_name_1"
                 android:textSize="24sp"
                 tools:text="@string/column_name_1" />
@@ -49,6 +56,7 @@
                 android:layout_height="64dp"
                 android:background="#C12979FF"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:text="@string/column_name_2"
                 android:textSize="24sp"
                 tools:text="@string/column_name_2" />
@@ -64,6 +72,7 @@
                 android:layout_height="64dp"
                 android:background="#482979FF"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:text="@string/time_1"
                 android:textSize="18sp"
                 tools:text="@string/time_1" />
@@ -73,6 +82,7 @@
                 android:layout_width="172dp"
                 android:layout_height="match_parent"
                 android:background="#482979FF"
+                android:gravity="center"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -85,8 +95,9 @@
                 android:id="@+id/textView9"
                 android:layout_width="171dp"
                 android:layout_height="59dp"
-                android:background="#C12979FF"
+                android:background="#8F2979FF"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:text="@string/time_2"
                 android:textSize="18sp" />
 
@@ -94,7 +105,8 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:background="#C12979FF"
+                android:background="#8F2979FF"
+                android:gravity="center"
                 android:textSize="18sp" />
         </TableRow>
 
@@ -106,18 +118,70 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="64dp"
-                android:background="#C12979FF"
+                android:background="#8F2979FF"
                 android:fontFamily="sans-serif-medium"
+                android:gravity="center"
                 android:text="@string/time_3"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="186dp"
-                android:layout_height="64dp"
-                android:background="#C12979FF"
+                android:layout_height="match_parent"
+                android:background="#8F2979FF"
+                android:gravity="center"
                 android:textSize="18sp" />
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:fontFamily="sans-serif-black"
+        android:text="No Lecture"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="172dp"
+        android:background="#8F2979FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="26dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="4dp"
+        android:background="#482979FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="88dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Lecture"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
